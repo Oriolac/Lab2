@@ -11,6 +11,7 @@ public class TaskTest {
 
     List expectedList = new ArrayList();
     List l = new ArrayList();
+    String[] names = new String[]{"Joan","Maria","Glòria","Marc","Sergi","Anna", "Marta", "Pere", "Quim","Joana"};
 
     @Test
     public void withinRangeIntegers() {
@@ -42,6 +43,19 @@ public class TaskTest {
 
     @Test
     public void withInRangeComparable(){
+        comparableWithPrimitives();
+        comparableWithReferences();
+    }
+
+    private void comparableWithReferences() {
+        Employee[] emps = new Employee[10];
+        for(int i = 0; i < emps.length; i++){
+            emps[i] = new Employee(names[i],"0000000A");
+            l.add(emps[i]);
+        }
+    }
+
+    private void comparableWithPrimitives() {
         l = Arrays.asList(-24L, -23L, -12L, 0L, 12L, 42L, 43L);
         expectedList = Arrays.asList(-23L, -12L, 0L, 12L, 42L);
         assertEquals(expectedList, Task.withinRange(l, 43L, -23L));
@@ -57,13 +71,18 @@ public class TaskTest {
 
     @Test
     public void withInRangeComparator(){
+        comparatorWithPrimitives();
+        comparatorWithReferences();
+    }
+
+    private void comparatorWithReferences() {
+    }
+
+    private void comparatorWithPrimitives() {
         l = Arrays.asList(1L, -3L);
         assertEquals(Arrays.asList(1L),Task.withinRange(Comparator.naturalOrder(), (List<Long>) l,3L,-2L));
         assertEquals(Arrays.asList(false, false, false), Task.withinRange(Comparator.naturalOrder(), Arrays.asList(false, false, true, false),true,false));
         assertEquals(Arrays.asList(), Task.withinRange(Comparator.naturalOrder(), Arrays.asList(true),true,true));
         assertEquals(Arrays.asList(), Task.withinRange(Comparator.naturalOrder(), Arrays.asList(null, false),true,false));
-
     }
-
-
 }

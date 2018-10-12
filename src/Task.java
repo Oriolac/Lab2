@@ -56,4 +56,8 @@ public class Task {
             return listInRange;
         }
     }
+
+    public static <E extends Comparable<E>> void copyWithRange(List<E> trg, List<E> src, E max, E min){
+
+    }
 }
