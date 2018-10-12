@@ -20,16 +20,6 @@ public class ProjectManager extends Employee{
         super(name, nif);
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        try{
-            ProjectManager eng = (ProjectManager) obj;
-            return this.getNif().equals(eng.getNif()) && this.getEmail().equals(eng.getEmail()) && this.getName().equals(eng.getName());
-        } catch(ClassCastException e){
-            return false;
-        }
-    }
-
     public void setIdProject(int idProject){
         this.idProject = idProject;
     }

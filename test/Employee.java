@@ -1,4 +1,4 @@
-public class Employee {
+public class Employee implements Comparable<Employee>{
     private String name;
     private String nif;
     private String email;
@@ -14,15 +14,6 @@ public class Employee {
         this.email = email;
     }
 
-    @Override
-    public boolean equals(Object obj){
-        if(obj instanceof Employee){
-            Employee emp = (Employee) obj;
-            return this.name.equals(emp.getName()) && this.nif.equals(emp.getNif()) && this.email.equals(emp.getEmail());
-        } else {
-            return false;
-        }
-    }
 
     public String getNif(){
         return this.nif;
@@ -40,4 +31,15 @@ public class Employee {
         this.email = email;
     }
 
+    /**
+     * Compares two Employee objects
+     * @param o The Employee to be compared
+     * @return The value 0 if the employees have the same nif;
+     * a value less than 0 if this Employee has a lower than the argument Employee's nif;
+     * and a value greater than 0 if this Employee has a greater nif than the argument Employee's nif.
+     */
+    @Override
+    public int compareTo(Employee o) {
+        return Integer.parseInt(this.nif) - Integer.parseInt(o.nif);
+    }
 }

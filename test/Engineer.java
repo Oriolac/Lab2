@@ -19,16 +19,6 @@ public class Engineer extends Employee {
         super(name, nif, email);
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        try{
-            Engineer eng = (Engineer) obj;
-            return this.getNif().equals(eng.getNif()) && this.getEmail().equals(eng.getEmail()) && this.getName().equals(eng.getName()) && this.getNumDept() == eng.getNumDept();
-        } catch(ClassCastException e){
-            return false;
-        }
-    }
-
     public int getNumDept(){
         return this.numDept;
     }

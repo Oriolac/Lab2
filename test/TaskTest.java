@@ -50,9 +50,10 @@ public class TaskTest {
     private void comparableWithReferences() {
         Employee[] emps = new Employee[10];
         for(int i = 0; i < emps.length; i++){
-            emps[i] = new Employee(names[i],"0000000A");
-            l.add(emps[i]);
+            emps[i] = new Employee(names[i],Integer.toString(i).concat("0000000"));
         }
+        l = Arrays.asList(emps[0],emps[1], emps[2], emps[3], emps[4], emps[5], emps[6], emps[7], emps[8], emps[9]);
+        assertEquals(Arrays.asList(emps[1],emps[2],emps[3]),Task.withinRange(l,emps[4],emps[1]));
     }
 
     private void comparableWithPrimitives() {
