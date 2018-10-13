@@ -1,7 +1,4 @@
-import java.util.Comparator;
-import java.util.List;
-import java.util.Iterator;
-import java.util.ArrayList;
+import java.util.*;
 
 public class Task {
 
@@ -57,7 +54,39 @@ public class Task {
         }
     }
 
-    public static <E extends Comparable<E>> void copyWithRange(List<E> trg, List<E> src, E max, E min){
+    public static <E extends Comparable<? super E>> void copyWithRange(List<? super E> trg, List<? extends E> src, E max, E min){
+        try{
+            ListIterator<? super E> itTrg = trg.listIterator();
+            Iterator<? extends E> itSrc = src.iterator();
+            while(itSrc.hasNext()){
+                E eToCopy = itSrc.next();
+                if(max.compareTo(eToCopy) > 0 && min.compareTo(eToCopy) <= 0){
+                    if(itTrg.hasNext()){
+                        itTrg.next();
+                        itTrg.set(eToCopy);
+                    } else {
+                        itTrg.add(eToCopy);
+                    }
+                }
+            }
+        } catch(NullPointerException ex){
 
+        }
     }
+
+    public static <E> void copyWithRange(Comparator<E> comp,List<? super E> trg, List<? extends E> src, E max, E min){
+        try{
+            ListIterator<? super E> itTrg = trg.listIterator(trg.size());
+            Iterator<? extends E> itSrc = src.iterator();
+            while(itSrc.hasNext()){
+                E eToCopy = itSrc.next();
+                if(comp.compare(eToCopy, max) < 0 && comp.compare(eToCopy,min ) >= 0){
+                    itTrg.add(eToCopy);
+                }
+            }
+        } catch(NullPointerException ex){
+
+        }
+    }
+
 }

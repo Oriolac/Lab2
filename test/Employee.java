@@ -32,7 +32,8 @@ public class Employee implements Comparable<Employee>{
     }
 
     /**
-     * Compares two Employee objects
+     * Compares two Employee objects using the numbers of the nif and considering that the nif has 7 numbers and the
+     * letter is at the end of the nif.
      * @param o The Employee to be compared
      * @return The value 0 if the employees have the same nif;
      * a value less than 0 if this Employee has a lower than the argument Employee's nif;
@@ -40,6 +41,6 @@ public class Employee implements Comparable<Employee>{
      */
     @Override
     public int compareTo(Employee o) {
-        return Integer.parseInt(this.nif) - Integer.parseInt(o.nif);
+        return Integer.parseInt(this.nif.substring(0,8)) - Integer.parseInt(o.nif.substring(0,8));
     }
 }

@@ -21,13 +21,13 @@ public class TaskTest {
     @BeforeClass
     public static void insertObjects(){
         for(int i = 0; i < emps.length; i++){
-            emps[i] = new Employee(name,Integer.toString(i).concat("0000000"));
+            emps[i] = new Employee(name,Integer.toString(i).concat("0000000A"));
         }
         for(int i = 0; i < engs.length; i++){
-            engs[i] = new Engineer(name,Integer.toString(i).concat("0000001"));
+            engs[i] = new Engineer(name,Integer.toString(i).concat("0000001A"));
         }
         for(int i = 0; i < prom.length; i++){
-            prom[i] = new ProjectManager(name, Integer.toString(i).concat("0000002"));
+            prom[i] = new ProjectManager(name, Integer.toString(i).concat("0000002A"));
         }
     }
 
@@ -132,5 +132,21 @@ public class TaskTest {
         assertEquals(Arrays.asList(engs[2], prom[2], emps[3]), Task.withinRange(empComp, l,engs[4],prom[1]));
         l = Arrays.asList(emps[3], engs[3], emps[5], prom[9], prom[5]);
         assertEquals(Arrays.asList(emps[5], prom[5]), Task.withinRange(empComp, l, engs[9], emps[4]));
+    }
+
+    @Test
+    public void copyWithRangeWithComparableWithPrimitives() {
+    }
+
+    @Test
+    public void copyWithRangeWithComparableWithReferences() {
+    }
+
+    @Test
+    public void copyWithRangeWithComparatorWithPrimitives() {
+    }
+
+    @Test
+    public void copyWithRangeWithComparatorWithReferences() {
     }
 }
