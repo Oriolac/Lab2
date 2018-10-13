@@ -16,6 +16,7 @@ public class TaskTest {
     static Employee[] emps = new Employee[10];
     static Engineer[] engs = new Engineer[10];
     static ProjectManager[] prom = new ProjectManager[10];
+    EmployeeComparator empComp = new EmployeeComparator();
 
     @BeforeClass
     public static void insertObjects(){
@@ -58,7 +59,6 @@ public class TaskTest {
         }
         assertEquals(expectedList,Task.withinRange(l, 4, -2));
     }
-
 
     @Test
     public void comparableWithPrimitives() {
@@ -111,5 +111,26 @@ public class TaskTest {
 
     @Test
     public void comparatorWithReferences() {
+        //Proves amb una llista de només 1 objecte.
+        assertEquals(Arrays.asList(),Task.withinRange(empComp, Arrays.asList(),emps[2], engs[1]));
+        l = Arrays.asList(emps[0],emps[1], emps[2], emps[3], emps[4], emps[5], emps[6],null, emps[7], emps[8], emps[9]);
+        assertEquals(Arrays.asList(emps[1],emps[2],emps[3]),Task.withinRange(empComp, l,emps[4],emps[1]));
+        assertEquals(Arrays.asList(emps[6]), Task.withinRange(empComp, l, emps[8],emps[6]));
+        l = Arrays.asList(emps[4], emps[2], emps[3],emps[7], emps[1], emps[9], emps[2], null, emps[3]);
+        assertEquals(Arrays.asList(emps[4], emps[2], emps[3], emps[2]), Task.withinRange(empComp, l, emps[6], emps[2]));
+
+        //Proves amb una llista de Employees i Engineers
+        l = Arrays.asList(emps[0], engs[0], engs[1]);
+        assertEquals(Arrays.asList(emps[0], engs[0]),Task.withinRange(empComp, l,emps[1],emps[0]));
+        assertEquals(Arrays.asList(emps[0], engs[0]),Task.withinRange(empComp, l,engs[1],emps[0]));
+        l = Arrays.asList(engs[4], emps[2], engs[2], emps[3], engs[4], emps[5], null, engs[3]);
+        assertEquals(Arrays.asList(engs[4], engs[2], emps[3], engs[4], emps[5]), Task.withinRange(empComp, l,engs[5], engs[2]));
+
+        //Proves amb una llista de Employees, Engineeers i ProjectManagers
+        l = Arrays.asList(emps[1], engs[2], prom[2], emps[3], null, engs[1]);
+        assertEquals(Arrays.asList(emps[1],engs[2], prom[2]), Task.withinRange(empComp, l,emps[3],emps[1]));
+        assertEquals(Arrays.asList(engs[2], prom[2], emps[3]), Task.withinRange(empComp, l,engs[4],prom[1]));
+        l = Arrays.asList(emps[3], engs[3], emps[5], prom[9], prom[5]);
+        assertEquals(Arrays.asList(emps[5], prom[5]), Task.withinRange(empComp, l, engs[9], emps[4]));
     }
 }
