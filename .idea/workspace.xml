@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0bb631a7-cc53-4421-91e5-6e545a23287f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab2/TaskTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Engineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Engineer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ProjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ProjectManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TaskTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,22 +26,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="17" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5653" />
+          <entry key="java" value="7791" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5653" />
+          <entry key="JAVA" value="7791" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            <state relative-caret-position="65">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,19 +64,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="78">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
-                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,30 +76,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Engineer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
+            <state relative-caret-position="255">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/ProjectManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+            <state relative-caret-position="161">
+              <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,11 +119,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Task.java" />
-        <option value="$PROJECT_DIR$/test/TaskTest.java" />
-        <option value="$PROJECT_DIR$/test/Employee.java" />
         <option value="$PROJECT_DIR$/test/Engineer.java" />
         <option value="$PROJECT_DIR$/test/ProjectManager.java" />
+        <option value="$PROJECT_DIR$/test/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Task.java" />
+        <option value="$PROJECT_DIR$/test/TaskTest.java" />
       </list>
     </option>
   </component>
@@ -179,6 +156,11 @@
             <path>
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -188,7 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539385696327" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539391283704" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/junit-4.10.jar" />
@@ -273,34 +255,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskTest - 2018.10.12 at 23h 38m 44s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 18m 13s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.12 at 23h 39m 47s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 18m 49s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.12 at 23h 40m 35s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 24m 37s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.12 at 23h 43m 23s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 24m 52s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 00h 25m 14s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 26m 19s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 01h 02m 00s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 26m 53s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 01h 03m 43s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 27m 48s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 01h 05m 24s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 36m 02s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 01h 07m 00s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 37m 27s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 01h 07m 39s.xml">
+    <history-entry file="TaskTest - 2018.10.13 at 02h 40m 08s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -317,24 +299,24 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12708019" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.12708019" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Structure" order="5" sideWeight="0.5012531" side_tool="true" weight="0.12708019" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8524962" visible="true" weight="0.5057283" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.39934534" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.83585477" visible="true" weight="0.28477904" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8721634" weight="0.63011456" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.14750378" side_tool="true" visible="true" weight="0.5057283" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.16414523" side_tool="true" visible="true" weight="0.28477904" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4773071" weight="0.21276596" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45763993" weight="0.47954175" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -427,20 +409,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
+    <entry file="file://$PROJECT_DIR$/test/ProjectManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        <state relative-caret-position="65">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -449,37 +432,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="78">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/Engineer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="255">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ProjectManager.java">
+    <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="161">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
           <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
