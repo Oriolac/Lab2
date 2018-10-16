@@ -12,6 +12,7 @@ public class TaskTest {
 
     List expectedList = new ArrayList();
     List l = new ArrayList();
+    List targetList = new ArrayList();
     static String name = new String("Patata");
     static Employee[] emps = new Employee[10];
     static Engineer[] engs = new Engineer[10];
@@ -136,6 +137,19 @@ public class TaskTest {
 
     @Test
     public void copyWithRangeWithComparableWithPrimitives() {
+        l = Arrays.asList(21L);
+        targetList = Arrays.asList();
+        Task.copyWithRange(targetList, l, 43L, -23L);
+        expectedList = Arrays.asList(23L, 43L, 0L, 12L, -23L, -12L, 0L, 12L, 42L);
+        assertEquals(expectedList, targetList);
+
+        l = Arrays.asList(72L,43L,12L,48L,-24L,-23L,42L);
+        expectedList = Arrays.asList(12L, -23L, 42L);
+        assertEquals(expectedList,Task.withinRange(l,43L, -23L));
+
+        assertEquals(Arrays.asList(false, false, false), Task.withinRange(Arrays.asList(false, false, true, false),true,false));
+        assertEquals(Arrays.asList(), Task.withinRange(Arrays.asList(true),true,true));
+        assertEquals(Arrays.asList(), Task.withinRange(Arrays.asList(null, false),true,false));
     }
 
     @Test

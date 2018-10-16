@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/test/TaskTest.java" line="145" />
+    <bookmark url="file://$PROJECT_DIR$/test/TaskTest.java" line="159" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bb631a7-cc53-4421-91e5-6e545a23287f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Task.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Lab2/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab2/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Lab2/TaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab2/TaskTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TaskTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,28 +26,31 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="31" />
+          <entry key="class" value="1" />
+          <entry key="java" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9317" />
+          <entry key="java" value="9911" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9317" />
+          <entry key="JAVA" value="9911" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -54,27 +58,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            <state relative-caret-position="36">
+              <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="145" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="145" column="49" selection-start-line="145" selection-start-column="49" selection-end-line="145" selection-end-column="49" />
               <folding>
-                <element signature="method#withinRangeIntegers#0;class#TaskTest#0" />
-                <element signature="method#comparableWithPrimitives#0;class#TaskTest#0" />
                 <element signature="method#comparableWithReferences#0;class#TaskTest#0" />
-                <element signature="method#comparatorWithPrimitives#0;class#TaskTest#0" />
-                <element signature="method#comparatorWithReferences#0;class#TaskTest#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="356" column="71" selection-start-line="356" selection-start-column="71" selection-end-line="356" selection-end-column="71" />
+              <folding>
+                <element signature="docComment;class#Comparator#0" />
+                <element signature="docComment;method#compare#0;class#Comparator#0" />
+                <element signature="docComment;method#equals#0;class#Comparator#0" />
+                <element signature="docComment;method#reversed#0;class#Comparator#0" />
+                <element signature="docComment;method#thenComparing#0;class#Comparator#0" />
+                <element signature="method#thenComparing#0;class#Comparator#0" />
+                <element signature="docComment;method#thenComparing#1;class#Comparator#0" />
+                <element signature="method#thenComparing#1;class#Comparator#0" />
+                <element signature="docComment;method#thenComparing#2;class#Comparator#0" />
+                <element signature="docComment;method#thenComparingInt#0;class#Comparator#0" />
+                <element signature="method#thenComparingInt#0;class#Comparator#0" />
+                <element signature="docComment;method#thenComparingLong#0;class#Comparator#0" />
+                <element signature="method#thenComparingLong#0;class#Comparator#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Comparators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Comparable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1420">
+              <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -82,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="43" column="98" lean-forward="true" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
+            <state relative-caret-position="349">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -106,6 +148,8 @@
       <find>Comparator&lt;T&gt;</find>
       <find>natural</find>
       <find>withinRange(</find>
+      <find>add</find>
+      <find>add(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,10 +160,10 @@
       <list>
         <option value="$PROJECT_DIR$/test/Engineer.java" />
         <option value="$PROJECT_DIR$/test/ProjectManager.java" />
-        <option value="$PROJECT_DIR$/test/EmployeeComparator.java" />
         <option value="$PROJECT_DIR$/test/Employee.java" />
-        <option value="$PROJECT_DIR$/src/Task.java" />
+        <option value="$PROJECT_DIR$/test/EmployeeComparator.java" />
         <option value="$PROJECT_DIR$/test/TaskTest.java" />
+        <option value="$PROJECT_DIR$/src/Task.java" />
       </list>
     </option>
   </component>
@@ -140,8 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,20 +198,21 @@
             </path>
             <path>
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539441777641" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539648105650" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/junit-4.10.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/junit4/junit-4.10.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -251,34 +294,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskTest - 2018.10.13 at 02h 24m 37s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 20m 27s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 24m 52s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 21m 27s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 26m 19s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 21m 57s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 26m 53s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 36m 23s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 27m 48s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 39m 52s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 36m 02s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 41m 19s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 37m 27s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 42m 14s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 40m 08s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 43m 21s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 02h 52m 13s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 46m 51s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.13 at 03h 06m 44s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 01h 50m 29s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -293,9 +336,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.12708019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.12859304" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -304,15 +346,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8343419" visible="true" weight="0.090016365" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8721634" weight="0.63011456" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8199697" visible="true" weight="0.55973816" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.871407" weight="0.2831424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.16565809" side_tool="true" visible="true" weight="0.090016365" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.18003026" side_tool="true" visible="true" weight="0.55973816" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45612708" weight="0.47954175" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4417549" weight="0.3207856" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -331,10 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="4307" column="40" selection-start-line="4307" selection-start-column="40" selection-end-line="4307" selection-end-column="40" />
-          <folding>
-            <element signature="e#200641#200642#0" expanded="true" />
-            <element signature="e#200682#200683#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -342,19 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="4816" column="15" lean-forward="true" selection-start-line="4816" selection-start-column="15" selection-end-line="4816" selection-end-column="15" />
-          <folding>
-            <element signature="e#187017#187018#0" expanded="true" />
-            <element signature="e#187062#187063#0" expanded="true" />
-            <element signature="e#197557#197558#0" expanded="true" />
-            <element signature="e#197627#197628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Comparators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -387,17 +412,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Comparable.java">
+    <entry file="file://$PROJECT_DIR$/test/Engineer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/EmployeeComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="356" column="71" selection-start-line="356" selection-start-column="71" selection-end-line="356" selection-end-column="71" />
           <folding>
             <element signature="docComment;class#Comparator#0" />
             <element signature="docComment;method#compare#0;class#Comparator#0" />
@@ -416,56 +458,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Comparators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="136" column="15" selection-start-line="136" selection-start-column="15" selection-end-line="136" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="8" />
+        <state relative-caret-position="193">
+          <caret line="703" column="36" selection-start-line="703" selection-start-column="36" selection-end-line="703" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/EmployeeComparator.java">
+    <entry file="jar://$USER_HOME$/Documents/junit-4.10.jar/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Employee.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/ListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="43" column="98" lean-forward="true" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
+        <state relative-caret-position="2269">
+          <caret line="189" column="41" selection-start-line="189" selection-start-column="38" selection-end-line="189" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Engineer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="231" column="72" selection-start-line="231" selection-start-column="72" selection-end-line="231" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="111">
+          <caret line="450" selection-start-line="450" selection-end-line="450" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="145" column="4" selection-start-line="145" selection-start-column="4" selection-end-line="145" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="145" column="49" selection-start-line="145" selection-start-column="49" selection-end-line="145" selection-end-column="49" />
           <folding>
-            <element signature="method#withinRangeIntegers#0;class#TaskTest#0" />
-            <element signature="method#comparableWithPrimitives#0;class#TaskTest#0" />
             <element signature="method#comparableWithReferences#0;class#TaskTest#0" />
-            <element signature="method#comparatorWithPrimitives#0;class#TaskTest#0" />
-            <element signature="method#comparatorWithReferences#0;class#TaskTest#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -498,6 +553,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>junit-4.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -509,7 +565,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8.0_181</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
