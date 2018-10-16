@@ -1,18 +1,15 @@
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
 public class TaskTest {
 
-    List expectedList = new ArrayList<>();
-    List l = new ArrayList<>();
-    List targetList = new ArrayList<>();
+    static List expectedList = new ArrayList<>();
+    static List l = new ArrayList<>();
+    static List targetList = new ArrayList<>();
     static String name = new String("Patata");
     static Employee[] emps = new Employee[10];
     static Engineer[] engs = new Engineer[10];
@@ -34,6 +31,7 @@ public class TaskTest {
 
     @Test
     public void withinRangeIntegers() {
+        expectedList = Arrays.asList();
         l = Task.withinRange(null, 2, 0);
         assertEquals(expectedList,l);
         assertEquals(expectedList,Task.withinRange(Arrays.asList(), 4, -2));
@@ -153,6 +151,7 @@ public class TaskTest {
     @Test
     public void copyWithRangeWithComparableWithReferences() {
         //Proves amb una llista de només 1 objecte.
+        targetList = Arrays.asList();
         Task.copyWithRange(targetList, Arrays.asList(), emps[2], engs[1]);
         assertEquals(Arrays.asList(),targetList);
 
@@ -201,6 +200,8 @@ public class TaskTest {
         expectedList = Arrays.asList(false);
         assertEquals(expectedList, targetList);
 
+
+
         l = Arrays.asList(72L,43L,12L,48L,-24L,-23L,42L);
         targetList = new ArrayList(Arrays.asList(21L));
         Task.copyWithRange(Comparator.naturalOrder(), targetList, l, 43L, -23L);
@@ -217,18 +218,21 @@ public class TaskTest {
     @Test
     public void copyWithRangeWithComparatorWithReferences() {
         //Proves amb una llista de només 1 objecte.
+        targetList = Arrays.asList();
         Task.copyWithRange(empComp, targetList, Arrays.asList(), emps[2], engs[1]);
-        assertEquals(Arrays.asList(),targetList);
+        expectedList = Arrays.asList();
+        assertEquals(expectedList,targetList);
+
 
         l = Arrays.asList(emps[0],emps[1], emps[2], emps[3], emps[4], emps[5], emps[6],null, emps[7], emps[8], emps[9]);
         targetList = new ArrayList(Arrays.asList(emps[7]));
         Task.copyWithRange(empComp, targetList, l, emps[4], emps[1]);
-        expectedList = new ArrayList(Arrays.asList(emps[7], emps[1], emps[2], emps[3]));
+        expectedList = Arrays.asList(emps[7], emps[1], emps[2], emps[3]);
         assertEquals(expectedList,targetList);
 
         targetList = new ArrayList(Arrays.asList(emps[6]));
         Task.copyWithRange(empComp, targetList, l, emps[8], emps[6]);
-        expectedList = new ArrayList(Arrays.asList(emps[6], emps[6]));
+        expectedList = Arrays.asList(emps[6], emps[6]);
         assertEquals(expectedList, targetList);
 
         l = Arrays.asList(emps[4], emps[2], emps[3],emps[7], emps[1], emps[9], emps[2], null, emps[3]);
@@ -240,20 +244,20 @@ public class TaskTest {
         l = Arrays.asList(engs[4], emps[2], engs[2], emps[3], engs[4], emps[5], null, engs[3]);
         targetList = new ArrayList(Arrays.asList(emps[3]));
         Task.copyWithRange(empComp, targetList, l, engs[5], engs[2]);
-        expectedList = new ArrayList(Arrays.asList(emps[3],engs[4], engs[2], emps[3], engs[4], emps[5]));
+        expectedList = Arrays.asList(emps[3],engs[4], engs[2], emps[3], engs[4], emps[5]);
         assertEquals(expectedList,targetList);
 
         //Proves amb una llista de Employees, Engineeers i ProjectManagers
         l = Arrays.asList(emps[1], engs[2], prom[2], emps[3], null, engs[1]);
         targetList = new ArrayList(Arrays.asList(prom[2]));
         Task.copyWithRange(empComp, targetList, l, emps[3], emps[1]);
-        expectedList = new ArrayList(Arrays.asList(prom[2],emps[1],engs[2], prom[2]));
+        expectedList = Arrays.asList(prom[2],emps[1],engs[2], prom[2]);
         assertEquals(expectedList, targetList);
 
         l = Arrays.asList(emps[3], engs[3], emps[5], prom[9], prom[5]);
         targetList = new ArrayList(Arrays.asList(engs[1]));
         Task.copyWithRange(empComp, targetList, l, engs[9], emps[4]);
-        expectedList = new ArrayList(Arrays.asList(engs[1], emps[5], prom[5]));
+        expectedList = Arrays.asList(engs[1], emps[5], prom[5]);
         assertEquals(expectedList, targetList);
     }
 }
