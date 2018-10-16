@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb631a7-cc53-4421-91e5-6e545a23287f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Lab2/TaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab2/TaskTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TaskTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,34 +16,35 @@
     <session id="1745828499">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10076" />
+          <entry key="java" value="11170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10076" />
+          <entry key="JAVA" value="11170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -55,20 +52,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="506">
+              <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ListIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="187" column="43" selection-start-line="187" selection-start-column="43" selection-end-line="187" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            <state relative-caret-position="88">
+              <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="219" selection-end-column="36" />
               <folding>
                 <element signature="method#comparableWithReferences#0;class#TaskTest#0" />
               </folding>
@@ -79,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/AbstractList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6409">
+            <state relative-caret-position="6375">
               <caret line="420" column="13" selection-start-line="420" selection-start-column="13" selection-end-line="420" selection-end-column="13" />
               <folding>
                 <element signature="e#4990#4991#0" expanded="true" />
@@ -217,10 +223,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539650886046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539701085106" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -302,34 +308,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskTest - 2018.10.16 at 02h 32m 57s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 16m 33s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 36m 47s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 17m 09s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 37m 52s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 17m 38s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 38m 19s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 18m 40s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 39m 44s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 30m 25s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 41m 17s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 31m 51s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 44m 23s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 32m 20s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 45m 18s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 32m 35s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 47m 13s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 37m 19s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskTest - 2018.10.16 at 02h 48m 17s.xml">
+    <history-entry file="TaskTest - 2018.10.16 at 16h 44m 53s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -346,7 +352,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.1301059" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874687" visible="true" weight="0.13161875" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -355,15 +361,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.811649" weight="0.34042552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8229955" visible="true" weight="0.2111293" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.871407" weight="0.2831424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49848714" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.18835099" side_tool="true" visible="true" weight="0.34042552" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.17700455" side_tool="true" visible="true" weight="0.2111293" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4334342" weight="0.3207856" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.42965204" weight="0.3207856" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,7 +470,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6409">
+        <state relative-caret-position="6375">
           <caret line="420" column="13" selection-start-line="420" selection-start-column="13" selection-end-line="420" selection-end-column="13" />
           <folding>
             <element signature="e#4990#4991#0" expanded="true" />
@@ -509,20 +515,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="method#comparableWithReferences#0;class#TaskTest#0" />
-          </folding>
+        <state relative-caret-position="222">
+          <caret line="187" column="43" selection-start-line="187" selection-start-column="43" selection-end-line="187" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="506">
+          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="219" selection-end-column="36" />
+          <folding>
+            <element signature="method#comparableWithReferences#0;class#TaskTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>
