@@ -78,7 +78,7 @@ public class TaskTest {
 
     @Test
     public void comparableWithReferences() {
-            //Proves amb una llista de només 1 objecte.
+        //Proves amb una llista de només 1 objecte.
         assertEquals(Arrays.asList(),Task.withinRange(Arrays.asList(),emps[2], engs[1]));
         l = Arrays.asList(emps[0],emps[1], emps[2], emps[3], emps[4], emps[5], emps[6],null, emps[7], emps[8], emps[9]);
         assertEquals(Arrays.asList(emps[1],emps[2],emps[3]),Task.withinRange(l,emps[4],emps[1]));
@@ -86,14 +86,14 @@ public class TaskTest {
         l = Arrays.asList(emps[4], emps[2], emps[3],emps[7], emps[1], emps[9], emps[2], null, emps[3]);
         assertEquals(Arrays.asList(emps[4], emps[2], emps[3], emps[2]), Task.withinRange(l, emps[6], emps[2]));
 
-            //Proves amb una llista de Employees i Engineers
+        //Proves amb una llista de Employees i Engineers
         l = Arrays.asList(emps[0], engs[0], engs[1]);
         assertEquals(Arrays.asList(emps[0], engs[0]),Task.withinRange(l,emps[1],emps[0]));
         assertEquals(Arrays.asList(emps[0], engs[0]),Task.withinRange(l,engs[1],emps[0]));
         l = Arrays.asList(engs[4], emps[2], engs[2], emps[3], engs[4], emps[5], null, engs[3]);
         assertEquals(Arrays.asList(engs[4], engs[2], emps[3], engs[4], emps[5]), Task.withinRange(l,engs[5], engs[2]));
 
-            //Proves amb una llista de Employees, Engineeers i ProjectManagers
+        //Proves amb una llista de Employees, Engineeers i ProjectManagers
         l = Arrays.asList(emps[1], engs[2], prom[2], emps[3], null, engs[1]);
         assertEquals(Arrays.asList(emps[1],engs[2], prom[2]), Task.withinRange(l,emps[3],emps[1]));
         assertEquals(Arrays.asList(engs[2], prom[2], emps[3]), Task.withinRange(l,engs[4],prom[1]));
@@ -137,19 +137,16 @@ public class TaskTest {
 
     @Test
     public void copyWithRangeWithComparableWithPrimitives() {
-        l = Arrays.asList(21L);
+        l = Arrays.asList(false);
         targetList = Arrays.asList();
-        Task.copyWithRange(targetList, l, 43L, -23L);
-        expectedList = Arrays.asList(23L, 43L, 0L, 12L, -23L, -12L, 0L, 12L, 42L);
+        Task.copyWithRange(targetList, l, true, false);
+        expectedList = Arrays.asList(false);
         assertEquals(expectedList, targetList);
 
         l = Arrays.asList(72L,43L,12L,48L,-24L,-23L,42L);
-        expectedList = Arrays.asList(12L, -23L, 42L);
+        targetList = Arrays.asList(21L);
+        expectedList = Arrays.asList(21, 12L, -23L, 42L);
         assertEquals(expectedList,Task.withinRange(l,43L, -23L));
-
-        assertEquals(Arrays.asList(false, false, false), Task.withinRange(Arrays.asList(false, false, true, false),true,false));
-        assertEquals(Arrays.asList(), Task.withinRange(Arrays.asList(true),true,true));
-        assertEquals(Arrays.asList(), Task.withinRange(Arrays.asList(null, false),true,false));
     }
 
     @Test
@@ -158,6 +155,17 @@ public class TaskTest {
 
     @Test
     public void copyWithRangeWithComparatorWithPrimitives() {
+        l = Arrays.asList(false);
+        targetList = Arrays.asList();
+        Task.copyWithRange(Comparator.naturalOrder(),targetList, l, true, false);
+        expectedList = Arrays.asList(false);
+        assertEquals(expectedList, targetList);
+
+        l = Arrays.asList(72L,43L,12L,48L,-24L,-23L,42L);
+        targetList = Arrays.asList(21L);
+        Task.copyWithRange(Comparator.naturalOrder(), targetList, l, 43L, -23L);
+        expectedList = Arrays.asList(21, 12L, -23L, 42L);
+        assertEquals(expectedList,targetList);
     }
 
     @Test

@@ -57,6 +57,9 @@ public class Task {
     public static <E extends Comparable<? super E>> void copyWithRange(List<? super E> trg, List<? extends E> src, E max, E min){
         try{
             ListIterator<? super E> itTrg = trg.listIterator();
+            while(itTrg.hasNext()){
+                itTrg.next();
+            }
             Iterator<? extends E> itSrc = src.iterator();
             while(itSrc.hasNext()){
                 E eToCopy = itSrc.next();
@@ -73,6 +76,9 @@ public class Task {
     public static <E> void copyWithRange(Comparator<? super E> comp,List<? super E> trg, List<? extends E> src, E max, E min){
         try{
             ListIterator<? super E> itTrg = trg.listIterator();
+            while(itTrg.hasNext()){
+                itTrg.next();
+            }
             Iterator<? extends E> itSrc = src.iterator();
             while(itSrc.hasNext()){
                 E eToCopy = itSrc.next();
