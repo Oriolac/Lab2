@@ -32,6 +32,9 @@ public class TaskTest {
     @Test
     public void withinRangeIntegers() {
         expectedList = Arrays.asList();
+        l = Task.withinRange(Arrays.asList(), null, 0);
+        assertEquals(expectedList,l);
+        expectedList = Arrays.asList();
         l = Task.withinRange(null, 2, 0);
         assertEquals(expectedList,l);
         assertEquals(expectedList,Task.withinRange(Arrays.asList(), 4, -2));
@@ -134,7 +137,7 @@ public class TaskTest {
     }
 
     @Test
-    public void copyWithRangeWithComparableWithPrimitives() {
+    public void copyWithRangeUsingComparableWithPrimitives() {
         l = Arrays.asList(false);
         targetList = new ArrayList(Arrays.asList());
         Task.copyWithRange(targetList, l, true, false);
@@ -149,7 +152,7 @@ public class TaskTest {
     }
 
     @Test
-    public void copyWithRangeWithComparableWithReferences() {
+    public void copyWithRangeUsingComparableWithReferences() {
         //Proves amb una llista de només 1 objecte.
         targetList = Arrays.asList();
         Task.copyWithRange(targetList, Arrays.asList(), emps[2], engs[1]);
@@ -193,10 +196,10 @@ public class TaskTest {
     }
 
     @Test
-    public void copyWithRangeWithComparatorWithPrimitives() {
+    public void copyWithRangeUsingComparatorWithPrimitives() {
         l = Arrays.asList(false);
         targetList = new ArrayList(Arrays.asList());
-        Task.copyWithRange(Comparator.naturalOrder(),targetList, l, true, false);
+        Task.copyWithRange((Comparator<Boolean>) Comparator.naturalOrder(),targetList, l, true, false);
         expectedList = Arrays.asList(false);
         assertEquals(expectedList, targetList);
 
@@ -204,19 +207,19 @@ public class TaskTest {
 
         l = Arrays.asList(72L,43L,12L,48L,-24L,-23L,42L);
         targetList = new ArrayList(Arrays.asList(21L));
-        Task.copyWithRange(Comparator.naturalOrder(), targetList, l, 43L, -23L);
+        Task.copyWithRange((Comparator<Long>) Comparator.naturalOrder(), targetList, l, 43L, -23L);
         expectedList = Arrays.asList(21L, 12L, -23L, 42L);
         assertEquals(expectedList,targetList);
 
         l = Arrays.asList(72L,43L,12L,48L,-24L,-23L,null,42L);
         targetList = new ArrayList(Arrays.asList(21L));
-        Task.copyWithRange(Comparator.naturalOrder(), targetList, l, 43L, -23L);
+        Task.copyWithRange((Comparator<Long>) Comparator.naturalOrder(), targetList, l, 43L, -23L);
         expectedList = Arrays.asList(21L, 12L, -23L);
         assertEquals(expectedList,targetList);
     }
 
     @Test
-    public void copyWithRangeWithComparatorWithReferences() {
+    public void copyWithRangeUsingComparatorWithReferences() {
         //Proves amb una llista de només 1 objecte.
         targetList = Arrays.asList();
         Task.copyWithRange(empComp, targetList, Arrays.asList(), emps[2], engs[1]);
